@@ -24,6 +24,7 @@
   --color-gray-600: hsl(var(--gray-hue), 498%, 15%);
 
   /* rainbow borders */
+
   --borderViolet: 3px solid #9400d3;
   --borderIndigo: 3px solid #4b0082;
   --borderBlue: 3px solid #0000ff;
@@ -108,4 +109,68 @@ img {
 
 .btn.sm:hover {
   background: var(--color-gray-100);
+}
+
+section {
+  border: var(--borderGreen);
+  margin-top: 10rem;
+}
+
+.section__head {
+  border: var(--borderOrange);
+  display: flex;
+  align-items: center;
+}
+
+.section__head span {
+  border: var(--borderGreen);
+  background-color: var(--color-gray-500);
+  padding: 0.8rem;
+  border-radius: 1rem;
+  color: var(--color-secondary);
+  font-size: 1.5rem;
+}
+
+.card {
+  border: var(--borderRed);
+  background-color: var(--color-gray-500);
+  border: 2px solid transparent;
+  text-align: center;
+  padding: 3rem 2rem;
+  margin: 1rem;
+  border-radius: 0 3rem;
+  transition: var (--transition);
+}
+
+.card:hover {
+  background: transparent;
+  border-color: var(--color-gray-400);
+  cursor: default;
+}
+.card span {
+  border: var(--borderOrange);
+  width: 3rem;
+  height: 3rem;
+  background: var(--color-primary);
+  color: var(--color-gray-100);
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.5rem;
+  margin-inline: auto;
+  border-radius: 1rem;
+  transition: var(--transition);
+}
+
+.card:hover span {
+  background-color: var(--color-secondary);
+  color: var(--color-gray-600);
+}
+
+.card small {
+  border: var(--borderYellow);
+  margin-top: 1rem;
+  display: block;
+  font-weight: 300;
 }
