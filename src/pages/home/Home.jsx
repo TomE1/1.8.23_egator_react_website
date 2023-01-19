@@ -1,7 +1,8 @@
-import FAQ from '../../components/FAQ';
+import Footer from '../../components/Footer';
 import FAQs from '../../components/FAQs';
 import MainHeader from '../../components/MainHeader';
 import Programs from '../../components/Programs';
+import Testimonials from '../../components/Testimonials';
 import Values from '../../components/Values';
 import './home.css';
 
@@ -11,8 +12,9 @@ const Home = () => {
       <MainHeader />
       <Programs />
       <Values />
-      <FAQs/>
-      <FAQ/>
+      <FAQs />
+      <Testimonials />
+      <Footer />
     </>
   );
 };
