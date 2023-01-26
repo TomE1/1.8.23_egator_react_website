@@ -17,6 +17,7 @@ const FAQ = ({ question, answer }) => {
         </button>
       </div>
       {isAnswerShowing && <p>{answer}</p>}
+      <p>really?</p>
     </article>
   );
 };
