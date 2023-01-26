@@ -20,7 +20,7 @@ const FAQ = ({ question, answer }) => {
       <p>really?</p>
       <p>really?</p>
     </article>
-  );
+  ); 
 };
 
 export default FAQ;
